@@ -10,7 +10,7 @@ To use this repository:
 
 It is important to note that the core-ga.py file contains all the parameters to control the direction of evolution by the algorithm. (eg. number of gens, size of populations etc.)
 
-The most common error when running the code is an rdkit error, which is the product of USRCAT calculations being unable to handle atoms in certain positions/arrangements in the generated molecular structures. If this error occurs, the code will attempt to fix it by moving to a more liberal selection of Force Field parameters during calculation, leading to slight discrepancies in results. As of the time of writing a method of correcting this is not known, as the only viable fix is to run the USRCAT through again with different parameters which is not possible during a run without first stopping and re-attempting.
+The most common error when running the code is an rdkit error, which is the product of USRCAT calculations being unable to handle atoms in certain positions/arrangements in the generated molecular structures. If this error occurs, the code will attempt to fix it by moving to a more liberal selection of Force Field parameters during calculation, leading to slight discrepancies in results. *As of the time of writing a method of correcting this is not known, as the only viable fix is to run the USRCAT through again with different parameters which is not possible during a run without first stopping and re-attempting.*
 
 The parameters of interest in running the code are listed below. These can all be found in core-ga.py:
 1. num_generations          : sets generation length (ie. total number of generations for code to run)
