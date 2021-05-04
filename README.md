@@ -13,6 +13,6 @@ It is important to note that the core-ga.py file contains all the parameters to 
 The most common error when running the code is an rdkit error, which is the product of USRCAT calculations being unable to handle atoms in certain positions/arrangements. THis will lead to more liberal selection of the Force Field parameters during calculation, leading to slight discrepancies in results. As of the time of writing a method of correcting this is not known.
 
 The parameters of interest in running the code are listed below. These can all be found in core-ga.py:
-- 1. num_generations          : sets generation length (ie. total number of generations for code to run)
-- 2. generation_size          : sets size of population for each generation
-- 3. properties_calc_ls       : sets the parameters to be calculated (this should be all of them, as removing them from this list without removing the relevant parts of the code will raise an error)
+1. num_generations          : sets generation length (ie. total number of generations for code to run)
+2. generation_size          : sets size of population for each generation
+3. properties_calc_ls       : sets the parameters to be calculated (this should be all of them, as removing them from this list without removing the relevant parts of the code will raise an error)
