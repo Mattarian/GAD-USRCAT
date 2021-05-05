@@ -10,7 +10,7 @@ To use this repository:
 
 It is important to note that the core-ga.py file contains all the parameters to control the direction of evolution by the algorithm. (eg. number of gens, size of populations etc.)
 
-The most common error when running the code is an rdkit error, which is the product of USRCAT calculations being unable to handle atoms in certain positions/arrangements in the generated molecular structures. If this error occurs, the code will attempt to fix it by moving to a more liberal selection of Force Field parameters during calculation, leading to slight discrepancies in results. 
+The most common error when running the adapted code is an rdkit error, which is the product of USRCAT calculations being unable to handle atoms in certain positions/arrangements in the generated molecular structures. If this error occurs, the code will attempt to fix it by moving to a more liberal selection of Force Field parameters during calculation, leading to slight discrepancies in results. 
 
 *As of the time of writing, a method of correcting this error is not known. Should this error lead to concerns over the results, the only viable fix known is to run the molecule through again with different parameters set in the rdkit parts of the code. This is not possible during a run without first stopping and re-attempting the run.*
 
@@ -21,6 +21,8 @@ The parameters of interest in running the code are listed below. These can all b
 
 ## Running the GA-D
 Instructions for running and using the GA-D is provided in the Jupyter Notebook provided here.
+
+It is recommended to load a fresh version of the GA-D, and replace the necessary files with those found in this repository.
 
 # References
 A. Nigam, P. Friederich, M. Krenn, A. Aspuru-Guzik, 2019, arxiv preprint, arxiv: arXiv:1909.11655v4
