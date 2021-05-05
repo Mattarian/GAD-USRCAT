@@ -234,7 +234,7 @@ def fitness(molecules_here,    properties_calc_ls,
         
         logP_calculated, SAS_calculated, RingP_calculated, logP_norm, SAS_norm, RingP_norm, Similarity_calculated, USRSim_calculated, USRSim_norm, TaniSim_calculated, TaniSim_norm = obtained_standardized_properties(molecules_here, logP_results, SAS_results, ringP_results, similar_results, USRSim_results, TaniSim_results)
         
-        # Add SAS and Ring Penalty
+        # Add objective
         fitness = (USRSim_norm)
         
         
