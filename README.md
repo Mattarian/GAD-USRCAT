@@ -22,7 +22,7 @@ The parameters of interest in running the code are listed below. These can all b
 ## Running the GA-D
 Instructions for running and using the GA-D is provided in the Jupyter Notebook provided here.
 
-It is recommended to load a fresh version of the GA-D, and replace the necessary files with those found in this repository.
+/b It is recommended to load a fresh version of the GA-D, and replace the necessary files with those found in this repository. All points in the code that have been edited to incorporate new molecular features are labelled with the annotation #!# to be easily identifiable.
 
 # References
 A. Nigam, P. Friederich, M. Krenn, A. Aspuru-Guzik, 2019, arxiv preprint, arxiv: arXiv:1909.11655v4
