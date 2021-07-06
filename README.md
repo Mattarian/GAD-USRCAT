@@ -20,7 +20,7 @@ The parameters of interest in running the code are listed below. These can all b
 3. properties_calc_ls       : sets the parameters to be calculated (this should be all of them, as removing them from this list without removing the relevant parts of the code will raise an error)
 
 ## Running the GA-D
-Instructions for running and using the GA-D is provided in the Jupyter Notebook provided here.
+Instructions for running and using the GA-D is provided in the Jupyter Notebook provided here. (Genetic Algorithm Instructions.ipynb)
 
 **It is recommended to load a fresh version of the GA-D, and replace the necessary files with those found in this repository. All points in the code that have been edited to incorporate new molecular features are labelled with the annotation #!# to be easily identifiable.**
 
